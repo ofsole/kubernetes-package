@@ -39,7 +39,7 @@ roleRef:
   apiGroup: rbac.authorization.k8s.io
 EOF
 
-GCR_IO_REGISTRY=${REGISTRY:-gcr.io}
+GCR_IO_REGISTRY=${REGISTRY:-registry.cn-hangzhou.aliyuncs.com}
 DOCKER_IO_REGISTRY=${REGISTRY:-docker.io}
 INFLUXDB_RETENTION=${INFLUXDB_RETENTION:-0s}
 DNS_REPLICAS=${DNS_REPLICAS:-1}
